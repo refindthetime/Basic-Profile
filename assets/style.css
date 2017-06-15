@@ -5,6 +5,8 @@ color: #fff;
 font-family: 'Georgia', Times, Times New Roman, serif;
 font-size: 45px;
 margin-left: 50px;
+float: right;
+;
 padding: 10px;
 clear: both;
 }
@@ -39,8 +41,10 @@ color:#777777;
 font-size: 20px;
 color: #4aaaa5;
 }
-div.connect a {float:right;
-display: inline;}
+div.connect a {float: right;
+    margin-right: 30px;
+display: inline;
+position: relative;}
 
 
 /*Form*/
@@ -123,6 +127,7 @@ color:#777777;
 font-size: 20px;}
 
 .derek {float: left;
+    margin: 10px;
 }
 .title {font-family:'Georgia', Times, Times New Roman, serif;
 font-size: 35px; 
@@ -143,18 +148,21 @@ hr {
 }
 
 
-/*porfolio*/
 
-.images {position: relative;
-display: block;}
+        
+    /*porfolio*/
+.image {position: relative;
+display: inline-block;
+margin: 10px;}
+
 
 
 .imagetag {position: absolute;
         font-size: 20px;
         background-color: #4aaaa5;
         padding: 10px 10px;
-        text-align: center;
+        text-align: left;
         color: white;
         display: inline;
-        
-    }
+        overflow: all;
+        }
