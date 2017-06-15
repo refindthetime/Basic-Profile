@@ -6,34 +6,44 @@
 	<link rel="stylesheet" type="text/css" href="assets/style.css">
 </head>
 <body>
-<section><div>><h1 class="name">Derek D. Cassel</h1></div></section>
 
-<section><div><header<a href="index.html">About Me</a> | <a href="contact.html">Contact</a> |  
+
+<section><div><header><h1 class="name">Derek D. Cassel</h1>
+<a href="index.html">About Me</a> | 
+<a href="contact.html">Contact</a> |  
 <a href=portfolio.html>Portfolio</a></header></div>
 </section>
 
 <br><br><br><br><br>
 <!--sidebar-->
-<section class="connect"><div>
+<section><div class="connect">
 <h3>Connect With Me</h3>
-<a href="https://www.linkedin.com/in/derek-cassel-4523b81b/" class="connect"><img src="images/linkedin.png"></a>
-<a href="https://github.com/refindthetime" class="connect"><img src="images/github.png"></a>
-<a href="https://stackoverflow.com/users/8099324/refindthetime?tab=profile" class="connect"><img src="images/stackoverflow.png"></a>
+<hr>
+<ul>
+<li><a href="https://www.linkedin.com/in/derek-cassel-4523b81b/" class="connect"><img src="images/linkedin.png"></a>
+</li>
+<li><a href="https://github.com/refindthetime" class="connect"><img src="images/github.png"></a>
+</li>
+<li><a href="https://stackoverflow.com/users/8099324/refindthetime?tab=profile" class="connect"><img src="images/stackoverflow.png"></a></li>
+</ul>
 </div>
 </section>
 <br>
 
+
 <!--Form-->
 <div class="contact">
+<strong><h5 class="title">Contact</h5></strong>
+<hr>
   <form>
 
-    <label for="insertname">Name</label>
-    <input type="text" id="insertname" name="firstname" placeholder="Your name..">
-
-    <label for="email">Email</label>
+    <label for="insertname">Name</label><br>
+    <input type="text" id="insertname" name="firstname" placeholder="John Deer">
+  <br>
+    <label for="email">Email</label><br>
     <input type="text" id="email" name="email" placeholder="example@email.com">
-
-    <label for="subject">Message</label>
+  <br>
+    <label for="subject">Message</label><br>
     <textarea id="subject" name="subject" placeholder="Type here" style="height:200px"></textarea>
 
     <input type="submit" value="Submit">
@@ -41,7 +51,11 @@
   </form>
 </div>
 
-
-
+<style>
+body  {
+    background-image: url("images/background.png");
+    background-color: #cccccc;
+}
+</style>
 </body>
 </html>
