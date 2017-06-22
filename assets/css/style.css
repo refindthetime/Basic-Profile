@@ -237,3 +237,71 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+
+@media screen and (max-width: 640px) {
+
+#masthead {
+
+    position: static;
+}
+
+.sidebar {
+  
+  width: 100%;
+  max-width: initial;
+  padding: 30px;
+  margin-bottom: 20px;
+  background: #fff;
+  border: 1px solid #ddd;
+  text-align: left;}
+
+
+#logo { 
+  top: 100%;
+  text-align: center;
+  float: left: ;
+  width: 640px;
+         }
+}
+.nav a {
+
+
+}
+
+@media screen and (max-width: 768px) {
+
+.sidebar {
+  
+  width: 100%;
+  max-width: initial;
+  padding: 30px;
+  margin-bottom: 20px;
+  background: #fff;
+  border: 1px solid #ddd;
+  text-align: left;}
+  
+
+}
+
+@media screen and (max-width: 980px) {
+
+.sidebar {
+  
+  width: 100%;
+  float: right;
+  max-width: initial;
+  padding: 30px;
+  margin-bottom: 20px;
+  background: #fff;
+  border: 1px solid #ddd;
+  text-align: left;}
+
+
+}
+
+@-ms-viewport{
+  width: 640px;
+  width: 768px;
+  width: 980px;
+}
